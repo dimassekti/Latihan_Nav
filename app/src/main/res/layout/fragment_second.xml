@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="100dp"
+    android:background="@color/customRed"
+    tools:context=".SecondFragment">
+
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/input_tahun"
+        android:textColorHint="@android:color/white"
+        android:inputType="number"
+        android:hint="Masukkan tahun sekarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/input_tahun_lahir"
+        android:textColorHint="@android:color/white"
+        android:inputType="number"
+        android:hint="Masukkan tahun lahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/gototiga"
+        android:text="gototiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
